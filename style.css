@@ -57,12 +57,37 @@ main {
 }
 
 .sidebar-img {
-  width: 200px;
+  width: 250px;
 }
 
 .content {
   flex: 1;
   padding: 15px;
+}
+
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
 }
 
 /* interests section styles */
